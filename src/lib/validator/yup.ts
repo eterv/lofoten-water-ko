@@ -3,7 +3,7 @@ import * as yup from 'yup';
 yup.setLocale({
   mixed: {
     required: '${path} 필드는 반드시 필요합니다',
-    notType(ref: yup.ValidationError) {
+    notType(ref) {
       switch (ref.type) {
         case 'number':
           return `${ref.path} 필드는 숫자 형식이어야 합니다`;
