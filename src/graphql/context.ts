@@ -35,7 +35,7 @@ export const validateWithYup = async (shape: any, data: any): Promise<boolean> =
   const schema = yup.object().shape(shape);
   try {
     await schema.validate(data);
-  } catch (err) {
+  } catch (err: any) {
     throw new UserInputError(err.errors[0], { info: err });
   }
   return true;
