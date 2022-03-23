@@ -1,9 +1,4 @@
 /**
- * Your favorite port
- */
-export const port = parseInt(process.env.PORT as string, 10);
-
-/**
  * Database connection string
  */
 export const databaseUri = process.env.MONGO_URI as string;
@@ -38,7 +33,6 @@ export const api = {
 };
 
 export default {
-  port,
   databaseUri,
   jwtSecret,
   logs,
