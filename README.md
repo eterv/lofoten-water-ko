@@ -1,5 +1,6 @@
-# lofoten-water (로포튼워터)
-테크노벨리컴퍼니가 디자인하고 제작한 로포튼워터 웹 사이트의 깃헙저장소 입니다.
+# lofoten-water-ko
+
+This is the Korean version of Lofoten Water website.
 
 ## Getting Started
 
